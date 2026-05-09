@@ -1,0 +1,66 @@
+ # AgriGen: Text-Guided Image Generation for Agricultural Crops
+
+## Description
+AgriGen is an integrated AI-based engineering system specialized in text-to-image generation for the agricultural domain. The project aims to overcome the limitations of closed-source commercial models by providing an open-source and interpretable solution.
+The system utilizes deep learning techniques to generate high-quality images of fruits, vegetables, nuts, and seeds from simple textual descriptions.
+
+---
+
+## Key Features
+
+- **Text-to-Image Generation**  
+  Generate realistic agricultural crop images from text prompts.
+  
+- **Latent Space Exploration**  
+  Manipulate latent representations to control image characteristics.
+
+- **Dynamic Styling**  
+  Apply multiple visual styles such as Sketch, Lighting Enhancement, and Grayscale.
+
+- **Interactive Web Interface**  
+  User-friendly interface built with Streamlit.
+
+ ---
+
+## Technical Architecture
+
+The project evolved from an initial VAE-based design into a more advanced implementation for higher image quality.
+
+- **Base Model:** Stable Diffusion v1.5
+
+- **Fine-Tuning Technique:**  
+  LoRA (Low-Rank Adaptation) for efficient domain-specific training.
+
+- **Optimization:**  
+  Attention Slicing and VAE Slicing for resource-efficient inference.
+
+- **Inference Scheduler:**  
+  DPMSolverMultistepScheduler for faster image generation.
+
+---
+
+## Dataset & Evaluation
+
+- **Dataset:** Fruits-360 Dataset
+
+- **Preprocessing:**  
+  Processed 1,542 images covering 257 agricultural categories.
+
+- **Evaluation Accuracy:**  
+  Achieved 94.44% semantic matching accuracy using the CLIP evaluation model.
+
+---
+
+## Installation & Usage
+
+### 1. Environment Setup
+
+The project requires a CUDA-supported environment.  
+Recommended hardware: Tesla T4 GPU with 15GB VRAM.
+
+---
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
