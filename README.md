@@ -1,3 +1,4 @@
+
 # AgriGen: Text-Guided Image Generation for Agricultural Crops
 
 AgriGen is an integrated AI-based engineering system specialized in text-to-image generation for the agricultural domain. The project aims to overcome the limitations of closed-source commercial models by providing an open-source and interpretable solution.
@@ -15,7 +16,9 @@ The system utilizes deep learning techniques to generate high-quality images of 
 
 - **Interactive Web Interface** The system features a user-friendly interface built with **Streamlit**, allowing users to customize styles and generate images in real-time.
 
-[AgriGen Web Interface]<img width="605" height="340" alt="webapp_interface" src="https://github.com/user-attachments/assets/c3d1d1e8-6ad6-42f1-9819-fe4bd945477f" /> 
+[AgriGen Web Interface]
+<img width="716" height="521" alt="لقطة شاشة 2026-05-10 131928" src="https://github.com/user-attachments/assets/a796a91d-4181-41c5-acbe-a933628f1c45" />
+
 
 
 *Figure 1: Screenshot of the AgriGen interactive web application.*
@@ -40,12 +43,15 @@ The model was trained on the **Fruits-360 Dataset** and evaluated using the **CL
 ### Evaluation Accuracy: 94.44%
 
 #### Visual Evaluation Samples
-[Evaluation Samples] <img width="652" height="476" alt="eval_samples" src="https://github.com/user-attachments/assets/6166995c-1dd9-4740-b870-58a6293db8b4" />
+[Evaluation Samples]
+<img width="983" height="712" alt="لقطة شاشة 2026-05-10 132157" src="https://github.com/user-attachments/assets/c3fcd3bd-9e89-49e1-9bf5-e89ad0d49ede" />
+
 
 *Figure 2: Samples from the evaluation process showing True vs. Predicted labels.*
 
 #### Confusion Matrix
-<img width="466" height="395" alt="evaluation" src="https://github.com/user-attachments/assets/295d4fdd-f768-4efa-96d7-0f730a12bf03" />
+<img width="697" height="589" alt="لقطة شاشة 2026-05-10 132210" src="https://github.com/user-attachments/assets/834b89e6-4507-48a5-ad38-fb5403ad3cd1" />
+
 
 *Figure 3: Performance breakdown across different agricultural categories.*
 
