@@ -15,9 +15,9 @@ The system utilizes deep learning techniques to generate high-quality images of 
 
 - **Interactive Web Interface** The system features a user-friendly interface built with **Streamlit**, allowing users to customize styles and generate images in real-time.
 
-**[Try the Live Demo here!](https://spotty-tigers-stand.loca.lt)**
+[AgriGen Web Interface]<img width="605" height="340" alt="webapp_interface" src="https://github.com/user-attachments/assets/c3d1d1e8-6ad6-42f1-9819-fe4bd945477f" /> 
 
-![AgriGen Web Interface](assets/webapp_interface.png)
+
 *Figure 1: Screenshot of the AgriGen interactive web application.*
 
 ---
@@ -40,11 +40,13 @@ The model was trained on the **Fruits-360 Dataset** and evaluated using the **CL
 ### Evaluation Accuracy: 94.44%
 
 #### Visual Evaluation Samples
-![Evaluation Samples](assets/eval_samples.png)
+[Evaluation Samples] <img width="652" height="476" alt="eval_samples" src="https://github.com/user-attachments/assets/6166995c-1dd9-4740-b870-58a6293db8b4" />
+
 *Figure 2: Samples from the evaluation process showing True vs. Predicted labels.*
 
 #### Confusion Matrix
-![Confusion Matrix](assets/evaluation.png)
+<img width="466" height="395" alt="evaluation" src="https://github.com/user-attachments/assets/295d4fdd-f768-4efa-96d7-0f730a12bf03" />
+
 *Figure 3: Performance breakdown across different agricultural categories.*
 
 ---
